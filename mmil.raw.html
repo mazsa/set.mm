@@ -4034,6 +4034,11 @@ this implies excluded middle</TD>
   <TD>Implies excluded middle as shown at ~ unfiexmid .</TD>
 </TR>
 
+<tr>
+  <td>difinf</td>
+  <td>~ difinfinf</td>
+</tr>
+
 <TR>
   <TD ROWSPAN="2">prfi</TD>
   <TD>~ prfidisj</TD>
@@ -4619,7 +4624,35 @@ this implies excluded middle</TD>
 </TR>
 
 <tr>
-  <td>uncdadom</td>
+  <td>df-cda</td>
+  <td>~ df-dju</td>
+  <td>df-cda and df-dju are essentially the same. Current
+  thinking is that we want to remove df-cda and the +c syntax
+  from set.mm in favor of df-dju and use ` |_| ` in much the same
+  way that cardinal multiplication uses the df-xp ( ` X. ` )
+  syntax rather than having a notation specific to cardinals.</td>
+</tr>
+
+<tr>
+  <td>cdafn</td>
+  <td>~ djuex</td>
+  <td>Since ` |_| ` is defined on proper classes, the similarity
+  here is somewhat approximate.</td>
+</tr>
+
+<tr>
+  <td>cdaval</td>
+  <td>~ df-dju</td>
+</tr>
+
+<tr>
+  <td>cdadju</td>
+  <td><i>none</i></td>
+  <td>not needed as iset.mm does not have df-cda</td>
+</tr>
+
+<tr>
+  <td>uncdadom , undjudom</td>
   <td><i>none</i></td>
   <td>The set.mm proof relies on undom</td>
 </tr>
@@ -4632,6 +4665,11 @@ this implies excluded middle</TD>
 <tr>
   <td>cdaen</td>
   <td>~ djuen</td>
+</tr>
+
+<tr>
+  <td>cdaenun</td>
+  <td>~ djuenun</td>
 </tr>
 
 <tr>
@@ -8713,13 +8751,6 @@ intuitionistic and it is lightly used in set.mm</TD>
 </TR>
 
 <TR>
-  <TD>qnnen</TD>
-  <TD><I>none</I></TD>
-  <TD>Corollary 8.1.23 of [AczelRathjen] and thus presumably provable.
-  The set.mm proof would not work as-is or with small changes, however.</TD>
-</TR>
-
-<TR>
   <TD>ruc</TD>
   <TD><I>none</I></TD>
   <TD>Apparently not provable without countable choice, assuming
@@ -9403,7 +9434,8 @@ intuitionistic and it is lightly used in set.mm</TD>
   <td>df-xps and all theorems mentioning the binary product on a structure
   (syntax Xs.)</td>
   <td><i>none</i></td>
-  <td>presumably could be added in some form</td>
+  <td>The set.mm definition depends on df-cda ( +c ), df-imas ( "s ),
+  and df-prds ( Xs_ )</td>
 </tr>
 
 <TR>
@@ -10014,6 +10046,12 @@ intuitionistic and it is lightly used in set.mm</TD>
 </tr>
 
 <tr>
+  <td>df-hmeo and all theorems using the Homeo syntax</td>
+  <td><i>none</i></td>
+  <td>apparently intuitionizable</td>
+</tr>
+
+<tr>
   <td>xmetrtri2</td>
   <td><i>none</i></td>
   <td>Presumably this or something similar could be defined once we define
@@ -10127,6 +10165,18 @@ intuitionistic and it is lightly used in set.mm</TD>
 </tr>
 
 <tr>
+  <td>txmetcnp</td>
+  <td><i>none</i></td>
+  <td>The set.mm proof depends on df-xps and related theorems</td>
+</tr>
+
+<tr>
+  <td>txmetcn</td>
+  <td><i>none</i></td>
+  <td>The set.mm proof depends on txmetcnp</td>
+</tr>
+
+<tr>
   <td>dscmet , dscopn</td>
   <td><i>none</i></td>
   <td>The set.mm definition for the discrete metric, and the proofs,
@@ -10182,6 +10232,25 @@ intuitionistic and it is lightly used in set.mm</TD>
 </tr>
 
 <tr>
+  <td>tgioo2</td>
+  <td>~ tgioo2cntop</td>
+</tr>
+
+<tr>
+  <td>rerest</td>
+  <td>~ rerestcntop</td>
+</tr>
+
+<tr>
+  <td>tgioo3</td>
+  <td><i>none</i></td>
+  <td>Until we have defined RRfld (presumably closely related
+  to the issues described at the df-cnfld entry here), we
+  can use ` ( topGen `` ran (,) ) ` as a notation for the
+  topology of the real numbers (as seen at ~ tgioo2cntop ).</td>
+</tr>
+
+<tr>
   <td>zcld</td>
   <td><i>none</i></td>
   <td>the set.mm proof uses the floor function in ways that we
@@ -10208,10 +10277,47 @@ intuitionistic and it is lightly used in set.mm</TD>
 </tr>
 
 <tr>
+  <td>xmetdcn2</td>
+  <td><i>none</i></td>
+  <td>the set.mm theorem is defined in terms of the RR*s syntax
+  and uses txmetcn in the proof</td>
+</tr>
+
+<tr>
+  <td>xmetdcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm theorem is defined in terms of the ordTop syntax
+  and uses xmetdcn2 in the proof</td>
+</tr>
+
+<tr>
+  <td>metdcn2</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof relies on xmetdcn</td>
+</tr>
+
+<tr>
+  <td>metdcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof relies on metdcn2</td>
+</tr>
+
+<tr>
+  <td>msdcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof relies on metdcn2</td>
+</tr>
+
+<tr>
   <td>cnmpt1ds</td>
   <td><i>none</i></td>
-  <td>the set.mm proof is in terms of binary topological product theorems
-  we do not have</td>
+  <td>the set.mm proof relies on msdcn</td>
+</tr>
+
+<tr>
+  <td>cnmpt2ds</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof relies on msdcn</td>
 </tr>
 
 <tr>
@@ -10224,6 +10330,49 @@ intuitionistic and it is lightly used in set.mm</TD>
   <td>metdsf</td>
   <td><i>none</i></td>
   <td>the set.mm proof uses infxrcl</td>
+</tr>
+
+<tr>
+  <td>addcnlem , addcn , subcn , mulcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof uses txmetcn</td>
+</tr>
+
+<tr>
+  <td>divcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof uses mulcn</td>
+</tr>
+
+<tr>
+  <td>fsumcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof uses addcn</td>
+</tr>
+
+<tr>
+  <td>fsum2cn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof uses fsumcn</td>
+</tr>
+
+<tr>
+  <td>expcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof uses mulcn</td>
+</tr>
+
+<tr>
+  <td>divccn</td>
+  <td><i>none</i></td>
+  <td>Not equal would need to be changed to apart. Also, the
+  set.mm proof uses mulcn</td>
+</tr>
+
+<tr>
+  <td>sqcn</td>
+  <td><i>none</i></td>
+  <td>the set.mm proof uses expcn</td>
 </tr>
 
 <TR>
@@ -10244,6 +10393,13 @@ intuitionistic and it is lightly used in set.mm</TD>
 <tr>
   <td>cdivcncf</td>
   <td>~ cdivcncfap</td>
+</tr>
+
+<tr>
+  <td>cnmpt2pc</td>
+  <td><i>none</i></td>
+  <td>this kind of piecewise definition would apparently rely on
+  real number trichotomy or something similar</td>
 </tr>
 
 <tr>
@@ -10458,9 +10614,8 @@ intuitionistic and it is lightly used in set.mm</TD>
 <tr>
   <td>dvcnp2</td>
   <td><i>none</i></td>
-  <td>The most obviously missing thing in the set.mm proof
-  is the binary topological product syntax (tX) and several theorems
-  which use it.</td>
+  <td>The set.mm proof relies on subcn , mulcn , cncfmpt2f , limccnp2 ,
+  and the converse of ~ cnplimcim</td>
 </tr>
 
 <tr>

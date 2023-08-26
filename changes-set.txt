@@ -20,13 +20,76 @@ proposed  sylbid    biimtrd     etc.
 proposed  sylbird   biimtrrd    etc.
 proposed  syl5*     *trid       (syl5bi -> biimtrid; syl5eqel -> eqeltrid;etc.)
 proposed  syl6*     *trdi
-proposed  *mpt*     *mpf* or *mptf* (maps-to for functions)
-proposed  *mpt2*    *mpo* or *mpto* (maps-to for operations)
+proposed  *mpt2*    *mpo*       (renaming process underway)
 (Please send any comments on these proposals to the mailing list or
 make a github issue.)
 
 DONE:
 Date      Old       New         Notes
+23-Aug-23 ovmpt2    ovmpo
+23-Aug-23 ovmpt2g   ovmpog
+23-Aug-23 ovmpt2dv2 ovmpodv2
+23-Aug-23 ovmpt2dv  ovmpodv
+23-Aug-23 ovmpt2df  ovmpodf
+23-Aug-23 ovmpt2a   ovmpoa
+23-Aug-23 ovmpt2ga  ovmpoga
+23-Aug-23 ovmpt2x   ovmpox
+22-Aug-23 ovmpt2d   ovmpod
+22-Aug-23 ovmpt2dx  ovmpodx
+22-Aug-23 ovmpt2dxf ovmpodxf
+22-Aug-23 ovmpt2s   ovmpos
+22-Aug-23 rexrnmpt2 rexrnmpo
+22-Aug-23 ralrnmpt2 ralrnmpo
+22-Aug-23 df-srdg   [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 issrdg    [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 sdrgid    [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 sdrgss    [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 issdrg2   [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 acsfn1p   [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 subrgacs  [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 sdrgacs   [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 cntzsdrg  [same]      moved from SO's mathbox to main set.mm
+22-Aug-23 subdrgint [same]      moved from TA's mathbox to main set.mm
+22-Aug-23 sdrgint   [same]      moved from TA's mathbox to main set.mm
+22-Aug-23 primefld  [same]      moved from TA's mathbox to main set.mm
+22-Aug-23 cntrss    [same]      moved from TA's mathbox to main set.mm
+22-Aug-23 iinssiun  [same]      moved from TA's mathbox to main set.mm
+22-Aug-23 iindif1   [same]      moved from TA's mathbox to main set.mm
+21-Aug-23 iunssd    [same]      moved from GS's mathbox to main set.mm
+21-Aug-23 elrnmpt2res elrnmpores
+21-Aug-23 elrnmpt2  elrnmpo
+21-Aug-23 elrnmpt2g elrnmpog
+21-Aug-23 reldmmpt2 reldmmpo
+20-Aug-23 rnmpt2    rnmpo
+20-Aug-23 mpt22eqb  mpo2eqb
+20-Aug-23 mpt2fun   mpofun
+18-Aug-23 resmpt2   resmpo
+18-Aug-23 fconstmpt2 fconstmpo
+18-Aug-23 mpt2snif  mposnif
+18-Aug-23 mpt2difsnif mpodifsnif
+17-Aug-23 mpt2mpt   mpompt
+17-Aug-23 mpt2mptx  mpomptx
+17-Aug-23 mpt2v     mpov
+17-Aug-23 cbvmpt2v  cbvmpov
+17-Aug-23 cbvmpt2   cbvmpo
+17-Aug-23 cbvmpt2x  cbvmpox
+17-Aug-23 mpt20     mpo0
+15-Aug-23 nfmpt2    nfmpo
+15-Aug-23 nfmpt22   nfmpo2
+15-Aug-23 nfmpt21   nfmpo1
+14-Aug-23 mpt2eq3dv mpoeq3dv
+14-Aug-23 mpt2eq3ia mpoeq3ia
+13-Aug-23 mpt2eq3dva mpoeq3dva
+12-Aug-23 mpt2eq123i mpoeq123i
+12-Aug-23 mpt2eq123dv mpoeq123dv
+12-Aug-23 mpt2eq123dva mpoeq123dva
+11-Aug-23 mpt2eq12  mpoeq12
+11-Aug-23 mpt2eq123 mpoeq123
+10-Aug-23 cmpt2     cmpo
+ 6-Aug-23 df-mpt2   df-mpo
+31-Jul-23 sbcgfi    [same]      moved from GM's mathbox to main set.mm
+31-Jul-23 csbgfi    [same]      moved from GM's mathbox to main set.mm
+31-Jul-23 sbceqi    [same]      moved from GM's mathbox to main set.mm
 29-Jul-23 19.8ad    [same]      moved from DAW's mathbox to main set.mm
 29-Jul-23 pnfnre2   [same]      moved from GS's mathbox to main set.mm
 29-Jul-23 spc2d     [same]      moved from TA's mathbox to main set.mm
